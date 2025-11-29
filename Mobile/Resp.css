@@ -1,0 +1,28 @@
+body{
+    padding: 1.24em;/* 20/16=1.24*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+header ul li{
+   list-style: none;
+   text-align: center;
+
+}
+ img{
+    width: 100%;
+}
+#moret{
+    display: none;
+}
+.FOOT{
+    background-color: rgba(33, 32, 32, 0.669);
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+@media (min-width= 500px){
+
+}

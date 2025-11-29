@@ -1,0 +1,91 @@
+
+body{
+padding: 1.24em;/* 20/16=1.24*/
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgba(6, 6, 116, 0.667);
+    color: rgb(247, 245, 242);
+    padding-bottom: 0.3125em; /* 5px/16=1.0.3125*/
+    padding-top: 0.3125em; /* 5px/16=1.0.3125*/
+    text-align: center;
+}
+header ul{
+    list-style: none;
+   align-items: center;
+ 
+}
+header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.de{
+    width: 100%;
+    line-height: 2;
+}
+.de img{
+    width: 100%;
+}
+button{display: block;
+width: 100%;
+margin-bottom: 0.625em; /* 20/16=1.24*/
+padding: 0.3125em; /* 5px/16=1.0.3125*/
+border-radius: 0.3125em; /* 5px/16=1.0.3125*/
+border: none;
+}
+footer{
+    background-color: rgba(6, 6, 116, 0.667);
+    color: rgb(247, 245, 242);
+    padding-top: 0.625em;      /* 10/16=0.625*/
+    padding-bottom:  0.625em;      /* 10/16=0.625*/
+}
+#h{
+    background-color: rgb(171, 8, 235);
+    color: rgb(248, 251, 251);
+}
+#t{
+    background-color: rgb(175, 191, 118);
+    color: rgb(248, 251, 251);
+}
+
+footer ul{
+    list-style: none;
+    color: white;
+}
+
+footer ul li{
+    color: white;
+}
+/*...................................................*/
+
+@media(min-width: 768px){
+header{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+   padding-left: 1.25em;/*20px*/
+   padding-right: 1.25em;/*20px*/
+
+}
+header ul li{
+    display: inline-block;
+}
+button{
+    width: 25%;
+    margin-bottom: 0.625em; /* 20/16=1.24*/
+    padding: 0.3125em; /* 5px/16=1.0.3125*/
+    border-radius: 0.3125em; /* 5px/16=1.0.3125*/
+    border: none;
+    }
+footer .fo{
+    display: flex;
+    justify-content:center;
+    gap: 3.75em;
+}
+}
+
+
+/*----------------------------------------------------------------*/
+
