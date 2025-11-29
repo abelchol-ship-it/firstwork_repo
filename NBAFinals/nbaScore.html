@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA FINALS</title>
+    <link rel="stylesheet" href="nbaScore.css">
+</head>
+<body>
+    <div class="nbaF">
+        <h1>NBA FINALS 2021 GAME 6 FISERV FORUM</h1>
+
+
+        <div class="quaters">
+            <h1>Quater</h1>
+            <h1 id="period">1</h1>
+            <button class="btnQ" onclick="quaters()">Update</button>
+        </div>
+        <div class="teams">
+            <div class="team">
+                <h1>Home Team</h1>
+                <h2>Milwaukee Bucks</h2>
+                <h1 id="score">0</h1>
+
+                <button class="score" onclick="threez()">+3</button>
+                <button  class="score" onclick="twoz()">+2</button>
+                <button class="score" onclick="onez()">+1</button>
+            </div>
+            <div class="team">
+                <h1>Guest Team</h1>
+                <h2>Phoenix Suns</h2>
+                <h1 id="scoreG">0</h1>
+                
+                <button class="score" onclick="threes()">+3</button>
+                <button  class="score" onclick="twos()">+2</button>
+                <button class="score" onclick="ones()">+1</button>
+            </div>
+        </div>
+
+        <div class="quater">
+            <h1>Time to Play</h1>
+            <h1 id="timeLeft">12 </h1>
+            <button class="play" onclick="play()">Count Down</button>
+        </div>
+    </div>
+    
+    <script src="nbaScore.js"></script>
+</body>
+</html>
